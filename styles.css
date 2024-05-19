@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 100px 200px 200px;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-areas:
+    "celda1 celda2 celda2"
+    "celda3 celda4 celda4"
+    "celda5 celda4 celda4";
+    background-color: #9b9595;
+    gap: 5px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 20px;
+}
+.div1{
+    grid-area: celda1;
+    background-color: #bb7676;
+    padding: 20px;
+}
+.div2{
+    grid-area: celda2;
+    background-color: #8464a1;
+    padding: 20px;
+}
+.div3{
+    grid-area: celda3;
+    background-color: #995858;
+    padding: 20px;
+}
+.div5{
+    grid-area: celda5;
+    background-color: green;
+    padding: 20px;
+}
+.div4{
+    grid-area: celda4;
+    background-color: #4e5247;
+    padding: 25px;
+}    
+    
+.celda4{
+    display: grid;
+    grid-template-columns: 180px 180px;
+    grid-template-rows: 70px 70px 70px;
+    grid-template-areas:
+    "gridanidado gridanidado"
+    "lista2 lista3"
+    "lista4 lista5";
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    gap: 3px;
+}
+    
+.lis1{
+    grid-area: gridanidado;
+    padding: 20px;
+    background-color: aqua;
+}
+.lis2{
+    grid-area: lista2;
+    padding: 20px;
+    background-color: aqua;
+}
+    
+.lis3{
+    grid-area: lista3;
+    padding: 20px;
+    background-color: aqua;
+}
+.lis4{
+    grid-area: lista4;
+    padding: 20px;
+    background-color: aqua;
+}
+.lis5{
+    grid-area: lista5;
+    padding: 20px;
+    background-color: aqua;
+}
+   
+    
+   
+    
+   
+    
+  
+   
+
+
+    
+    
+
+  
+    
+   
+    
+
+    
+   
+
+   
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+  
+
+
+
+
+
+
+
+
+
+
+    
+    
+ 
